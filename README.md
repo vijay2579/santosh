@@ -11,3 +11,6 @@ git commands
    b. git add . - add all modified files to staging area
    c. git commit -m "RELATIVE_COMMIT_MESSAGE"
    d. git push origin BRANCH_NAME
+4. Merging to master branch
+   a. git checkout main
+   b. git merge BRANCH_NAME

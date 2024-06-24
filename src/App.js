@@ -1,11 +1,12 @@
-import DemoUseEffect from "./Components/DemoUseEffect";
+import Parent from "./Components/Parent/Parent";
 
 function App() {
   return (
     <div className="main-container">
       {/* <List /> */}
       {/* <DemoUseState /> */}
-      <DemoUseEffect />
+      {/* <DemoUseEffect /> */}
+      <Parent />
     </div>
   );
 }

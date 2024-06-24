@@ -1,5 +1,13 @@
+import DemoUseEffect from "./Components/DemoUseEffect";
+
 function App() {
-  return <div className="main-container">This is React App</div>;
+  return (
+    <div className="main-container">
+      {/* <List /> */}
+      {/* <DemoUseState /> */}
+      <DemoUseEffect />
+    </div>
+  );
 }
 
 export default App;
